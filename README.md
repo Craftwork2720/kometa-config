@@ -1,0 +1,2 @@
+# kometa-config
+Plex layout
