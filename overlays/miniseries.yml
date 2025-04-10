@@ -1,0 +1,13 @@
+overlays:
+   Miniserial:
+    overlay:
+     name: Miniserial
+     file: config/overlays/miniseries/miniseries.png
+     horizontal_offset: 0
+     horizontal_align: right
+     vertical_offset: 835
+     vertical_align: bottom
+    plex_search:
+      all:
+       label:
+         - Miniseries

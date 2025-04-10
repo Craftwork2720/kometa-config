@@ -1,0 +1,18 @@
+collections:
+  Random:
+    sort_title: "zzzzz_020_random"
+    file_poster: config/collections/posters/random.png
+    #summary: ''
+    #collection_order: added.desc
+    collection_mode: hide
+    collection_filtering: user
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    builder_level: show
+    smart_filter: 
+      all:
+        unplayed: true
+        year.gte: 1900
+      sort_by: random
+      limit: 1

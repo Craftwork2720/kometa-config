@@ -1,0 +1,43 @@
+templates:
+  status:
+    overlay:
+      group: status
+      weight: <<weight>>
+      name: render
+      file: config/overlays/status/en/<<render>>.png
+      horizontal_offset: 0
+      horizontal_align: left
+      vertical_offset: 0
+      vertical_align: bottom
+    optional:
+      - last
+    conditionals:
+      all:
+        conditions:
+          - key: [ended, returning, canceled]
+            value: true
+      tmdb:
+        conditions:
+          - key: [ended, returning, canceled]
+            value: <<key>>
+      last_days:
+        conditions:
+          - key: airing
+            last.exists: true
+            value: <<last>>
+    ignore_blank_results: true
+    plex_search:
+      any:
+        episode_air_date: <<last_days>>
+    plex_all: <<all>>
+    filters:
+      tmdb_status: <<tmdb>>
+overlays:
+  airing_shows:
+    template: {name: status, key: airing, weight: 40, last: 14, render: airing}
+  returning_shows:
+    template: {name: status, key: returning, weight: 30, render: returning}
+  canceled_shows:
+    template: {name: status, key: canceled, weight: 20, render: canceled}
+  ended_shows:
+    template: {name: status, key: ended, weight: 10, render: ended}
