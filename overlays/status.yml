@@ -1,10 +1,10 @@
-templates:
+https://github.com/Craftwork2720/kometa-config/tree/maintemplates:
   status:
     overlay:
       group: status
       weight: <<weight>>
       name: render
-      file: config/overlays/status/en/<<render>>.png
+      file: config/overlays/status/<<render>>.png
       horizontal_offset: 0
       horizontal_align: left
       vertical_offset: 0
