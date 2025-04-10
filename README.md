@@ -6,6 +6,8 @@ libraries:
     - file: config/overlays/rating	
 	
   Series:
+    collection_files:
+    - file: config/collections/miniseries #this collection is needed for overlay to labaling
     overlay_files:
     - file: config/overlays/miniseries
     - file: config/overlays/status
