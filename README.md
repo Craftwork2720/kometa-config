@@ -3,7 +3,7 @@
 libraries:
   Movies:
     overlay_files:
-    - file: config/overlays/rating	
+    - file: config/overlays/rating	#audience_rating
 	
   Series:
     collection_files:
@@ -11,6 +11,6 @@ libraries:
     overlay_files:
     - file: config/overlays/miniseries
     - file: config/overlays/status
-    - file: config/overlays/rating
+    - file: config/overlays/rating  #audience_rating
 ```	
 in collections folder are my colections and some posters
