@@ -1,5 +1,5 @@
 # kometa-config
-
+```
 libraries:
   Movies:
     overlay_files:
@@ -10,5 +10,5 @@ libraries:
     - file: config/overlays/miniseries
     - file: config/overlays/status
     - file: config/overlays/rating
-	
-# in collections folder are my colections and some posters
+```	
+in collections folder are my colections and some posters
