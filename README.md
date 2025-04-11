@@ -13,9 +13,9 @@ libraries:
 	
   Series:
     collection_files:
-    - file: config/collections/miniseries #this collection is needed for overlay to labaling
+   #- file: config/collections/miniseries #this collection is needed for overlay to labaling miniseries 
     overlay_files:
-    - file: config/overlays/miniseries
+   # - file: config/overlays/miniseries
     - file: config/overlays/status
     - file: config/overlays/rating  #audience_rating
     operations:
