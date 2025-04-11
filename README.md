@@ -5,6 +5,11 @@ libraries:
   Movies:
     overlay_files:
     - file: config/overlays/rating	#audience_rating
+    operations:
+      mass_audience_rating_update:
+      - imdb
+      - tmdb
+      - 2.0
 	
   Series:
     collection_files:
@@ -13,6 +18,11 @@ libraries:
     - file: config/overlays/miniseries
     - file: config/overlays/status
     - file: config/overlays/rating  #audience_rating
+    operations:
+      mass_audience_rating_update:
+      - imdb
+      - tmdb
+      - 2.0
 ```	
 # + In collections folder are my colections and some posters
 
