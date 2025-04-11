@@ -24,7 +24,7 @@ libraries:
       - tmdb
       - 2.0
 ```	
-# + In collections folder are my colections and some posters
+# + In collections folder are my some of colections and posters
 
 ## Anime
 ![Anime](/readme3.png)
@@ -33,7 +33,7 @@ libraries:
 ## Movies
 ![movies](/readme1.png)
 
-## Series (screens display different language but on github is english version)
+## Series (screenshots displays different language but on github is english version)
 ![Series](/readme2.png)
 
 
