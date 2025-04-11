@@ -15,11 +15,12 @@ libraries:
 ```	
 in collections folder are my colections and some posters
 
-## Series (screens display different language but on github is english version)
-![Series](/readme2.png)
 ## Anime
 ![Anime](/readme3.png)
 
 
 ## Movies
 ![movies](/readme1.png)
+
+## Series (screens display different language but on github is english version)
+![Series](/readme2.png)
