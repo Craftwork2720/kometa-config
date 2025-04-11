@@ -3,9 +3,7 @@ collections:
     sort_title: "!!!0020_documentary"
     file_poster: config/collections/posters/documentary.png
    # summary: ' '
-     # collection_order: alpha
     collection_mode: hide
-    #collection_order: added.desc
     builder_level: show
     smart_filter:
       all:
