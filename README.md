@@ -24,7 +24,7 @@ libraries:
       - tmdb
       - 2.0
 ```	
-# + In collections folder are my some of colections and posters
+# + In collections folder are some of my colections and posters
 
 ## Anime
 ![Anime](/readme3.png)
