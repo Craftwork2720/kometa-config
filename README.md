@@ -14,7 +14,7 @@ libraries:
     - file: config/overlays/status
     - file: config/overlays/rating  #audience_rating
 ```	
-in collections folder are my colections and some posters
+#in collections folder are my colections and some posters
 
 ## Anime
 ![Anime](/readme3.png)
