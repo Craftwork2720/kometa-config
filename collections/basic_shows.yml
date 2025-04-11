@@ -9,7 +9,6 @@ collections:
     visible_home: true
     visible_shared: true
     builder_level: show
-    #plex_all: true
     smart_filter: 
       all:
         unplayed_episodes: true
@@ -27,7 +26,6 @@ collections:
     visible_home: true
     visible_shared: true
     builder_level: show
-    #plex_all: true
     smart_filter: 
       all:
         unplayed_episodes: true
