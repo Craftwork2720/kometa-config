@@ -1,5 +1,5 @@
 collections:
-  Dokumentalne:
+  Documentary:
     sort_title: "!!!0020_documentary"
     file_poster: config/collections/posters/documentary.png
    # summary: ' '
