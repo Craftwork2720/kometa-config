@@ -24,3 +24,8 @@ in collections folder are my colections and some posters
 
 ## Series (screens display different language but on github is english version)
 ![Series](/readme2.png)
+
+
+## Posters
+![posters](/posters1.png)
+![posters](/posters2.png)
