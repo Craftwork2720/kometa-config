@@ -1,6 +1,7 @@
 # kometa-config
 ```
 libraries:
+
   Movies:
     overlay_files:
     - file: config/overlays/rating	#audience_rating
