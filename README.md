@@ -15,5 +15,9 @@ libraries:
 ```	
 in collections folder are my colections and some posters
 
+## Series (screens show different language but on github is english)
+![Series](/readme2.png)
 
+
+## Movies
 ![movies](/readme1.png)
