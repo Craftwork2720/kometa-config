@@ -18,7 +18,7 @@ templates:
       name: text(audience_rating)
       rating_type: audience_rating
       weight: 100
-      font: config/fonts/AvenirNextLTPro-Bold.ttf
+      font: config/overlays/ratings/AvenirNextLTPro-Bold.ttf
       font_size: 80
       horizontal_align: left
       horizontal_offset: 60
