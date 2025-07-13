@@ -86,7 +86,7 @@ libraries:
 ```
 
 
-## 🧾 Posters Collection
+## Posters Collection
 
 <p float="left">
   <img src="craftwork2720/collections/posters/a24.png" height="220" style="margin:5px;" />
@@ -111,9 +111,8 @@ libraries:
   <img src="craftwork2720/collections/posters/Year%202027.png" height="220" style="margin:5px;" />
 </p>
 
----
 
-## 📁 Included Collections
+## Included Collections
 
 Collection YAML files located under `craftwork2720/collections/`:
 
