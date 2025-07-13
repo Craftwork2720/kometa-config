@@ -1,35 +1,36 @@
 collections:
   Recently added to PLEX (unwatched):
     sort_title: "!!!!!!!!0010_added"
-    file_poster: config/collections/posters/recently_added.png
-    #summary: ''
+    file_poster: config/craftwork2720/collections/posters/recently_added.png
     collection_mode: hide
     collection_filtering: user
     visible_library: true
     visible_home: true
     visible_shared: true
     builder_level: show
+    #plex_all: true
     smart_filter: 
       all:
-        unplayed_episodes: true
-       # episode_added: 180
-      sort_by: episode_added.desc
-      limit: 30
+        unplayed: true
+        added: 180
+      sort_by: added.desc
+      limit: 50
+      
       
   Recently Released (unwatched):
     sort_title: "!!!!!!!!0011_Released"
-    file_poster: config/collections/posters/recently_released.png
-    #summary: ''
+    file_poster: config/craftwork2720/collections/posters/recently_released.png 
     collection_mode: hide
     collection_filtering: user
     visible_library: true
     visible_home: true
     visible_shared: true
     builder_level: show
+    #plex_all: true
     smart_filter: 
       all:
-        unplayed_episodes: true
-        episode_air_date: 360
-        episode_added: 360
-      sort_by: episode_release.desc
-      limit: 30
+        unplayed: true
+        release: 360
+        added: 360
+      sort_by: release.desc
+      limit: 50

@@ -2,7 +2,7 @@ collections:
 
   Miniseriale:
     sort_title: "!!!0010_MiniSeries"
-    file_poster: config/collections/posters/miniseries.png
+    file_poster: config/craftwork2720/collections/posters/miniseries.png
     collection_order: added.desc
     collection_mode: hide
     #collection_filtering: admin

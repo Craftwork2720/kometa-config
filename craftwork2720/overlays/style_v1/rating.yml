@@ -2,7 +2,7 @@ templates:
   Background:
     overlay:
       name: Background
-      file: config/overlays/ratings/<<back_color>>.png
+      file: config/craftwork2720/overlays/style_v1/ratings/<<back_color>>.png
       horizontal_offset: 0
       horizontal_align: left
       vertical_offset: 0
@@ -18,7 +18,7 @@ templates:
       name: text(audience_rating)
       rating_type: audience_rating
       weight: 100
-      font: config/overlays/ratings/AvenirNextLTPro-Bold.ttf
+      font: config/craftwork2720/fonts/AvenirNextLTPro-Bold.ttf
       font_size: 80
       horizontal_align: left
       horizontal_offset: 60

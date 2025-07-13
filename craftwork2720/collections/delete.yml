@@ -1,7 +1,7 @@
 collections:
   Delete:
     sort_title: "zzzz_010_delete"
-    file_poster: config/collections/posters/delete.png
+    file_poster: config/craftwork2720/collections/posters/delete.png
     #summary: ''
     blank_collection: true
     item_radarr_tag: del

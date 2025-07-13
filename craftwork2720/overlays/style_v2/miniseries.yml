@@ -1,0 +1,13 @@
+overlays:
+   Miniserial:
+    overlay:
+     name: Miniserial
+     file: config/craftwork2720/overlays/style_v2/miniseries/miniserial.png
+     horizontal_offset: 0
+     horizontal_align: left
+     vertical_offset: 80
+     vertical_align: bottom
+    plex_search:
+      all:
+       label:
+         - Miniseries

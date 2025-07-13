@@ -1,0 +1,56 @@
+templates:
+  Background:
+    overlay:
+      name: Background
+      file: config/craftwork2720/overlays/style_v2/ratings/colors/<<back_color>>.png
+      horizontal_offset: 420
+      horizontal_align: center
+      vertical_offset: 20
+      vertical_align: bottom
+    plex_search:
+      all:
+        audience_rating.gte: <<gte>>
+        audience_rating.lte: <<lte>>
+  Rating:
+    overlay:
+      font_color: <<font_color>>
+      group: rating_text
+      name: text(audience_rating)
+      rating_type: audience_rating
+      weight: 100
+      font: config/craftwork2720/fonts/Figtree-SemiBold-nodot.ttf
+      font_size: 65 
+      horizontal_align: center
+      horizontal_offset: 420      
+      vertical_align: bottom
+      vertical_offset: 26
+    plex_search:
+      all:
+        audience_rating.gte: <<gte>>
+        audience_rating.lte: <<lte>>
+overlays:
+  background_top_rating:  
+    template: {name: Background, back_color: "background_top_rating", gte: 8.0, lte: 9.9}        
+  background_high_rating:        
+    template: {name: Background, back_color: "background_high_rating", gte: 7.5, lte: 7.9}    
+  background_mid_high_rating:       
+    template: {name: Background, back_color: "background_mid_high_rating", gte: 7.0, lte: 7.4}    
+  background_mid_low_rating:       
+    template: {name: Background, back_color: "background_mid_low_rating", gte: 6.5, lte: 6.9}
+  background_low_high_rating:       
+    template: {name: Background, back_color: "background_low_high_rating", gte: 5.7, lte: 6.4}
+  background_low_rating:         
+    template: {name: Background, back_color: "background_low_rating", gte: 0.1, lte: 5.6} 
+
+  rating_top:  
+    template: {name: Rating, font_color: "#b9e1a1", gte: 8.0, lte: 9.9}        
+  rating_high:  
+    template: {name: Rating, font_color: "#baeead", gte: 7.5, lte: 7.9}    
+  rating_mid_high:  
+    template: {name: Rating, font_color: "#eff5ba", gte: 7.0, lte: 7.4}    
+  rating_mid_low:  
+    template: {name: Rating, font_color: "#44320a", gte: 6.5, lte: 6.9}
+  rating_low_high:  
+    template: {name: Rating, font_color: "#ffede0", gte: 5.7, lte: 6.4}
+  rating_low:  
+    template: {name: Rating, font_color: "#f1caca", gte: 0.1, lte: 5.6} 
