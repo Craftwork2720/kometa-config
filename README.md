@@ -1,16 +1,22 @@
-# kometa-config
-## style_v1
 
-
+### style_v1
 <p float="left">
   <img src="screenshots/v1_tv.png" height="220" />
-  <img src="screenshots/v1_movies.png" height="220" />
 </p>
 
-## style_v2
+### style_v2
 
 <p float="left">
   <img src="screenshots/v2_tv.png" height="220" />
+</p>
+
+### style_v1
+<p float="left">
+  <img src="screenshots/v1_movies.png" height="220" />
+</p>
+
+### style_v2
+<p float="left">
   <img src="screenshots/v2_movies.png" height="220" />
 </p>
 
@@ -27,7 +33,6 @@ libraries:
       - imdb
       - tmdb
       - 2.0
-	
   Series:
     collection_files:
   # - file: config/craftwork2720/overlays/style_v1/miniseries #this collection is needed for overlay to labaling miniseries 
@@ -55,7 +60,6 @@ libraries:
       - imdb
       - tmdb
       - 2.0
-	
   Series:
     collection_files:
   # - file: config/craftwork2720/overlays/style_v2/miniseries #this collection is needed for overlay to labaling miniseries 
