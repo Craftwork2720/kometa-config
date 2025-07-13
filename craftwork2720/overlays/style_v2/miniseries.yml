@@ -1,8 +1,8 @@
 overlays:
-   Miniserial:
+   Miniseries:
     overlay:
-     name: Miniserial
-     file: config/craftwork2720/overlays/style_v2/miniseries/miniserial.png
+     name: Miniseries
+     file: config/craftwork2720/overlays/style_v2/miniseries/miniseries.png
      horizontal_offset: 0
      horizontal_align: left
      vertical_offset: 80

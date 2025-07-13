@@ -2,7 +2,7 @@ templates:
   Background:
     overlay:
       name: Background
-      file: config/craftwork2720/overlays/style_v2/ratings/colors/<<back_color>>.png
+      file: config/craftwork2720/overlays/style_v2/ratings/<<back_color>>.png
       horizontal_offset: 420
       horizontal_align: center
       vertical_offset: 20

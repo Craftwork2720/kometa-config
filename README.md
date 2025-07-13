@@ -3,17 +3,15 @@
 
 
 <p float="left">
-  <img src="screenshots/style_v1/v1_anime.png" height="220" />
-  <img src="screenshots/style_v1/v1_movies.png" height="220" />
-  <img src="screenshots/style_v1/v1_tv.png" height="220" />
+  <img src="screenshots/v1_tv.png" height="220" />
+  <img src="screenshots/v1_movies.png" height="220" />
 </p>
 
 ## style_v2
 
 <p float="left">
-  <img src="screenshots/style_v2/v2_anime.png" height="220" />
-  <img src="screenshots/style_v2/v2_movies.png" height="220" />
-  <img src="screenshots/style_v2/v2_tv.png" height="220" />
+  <img src="screenshots/v2_tv.png" height="220" />
+  <img src="screenshots/v2_movies.png" height="220" />
 </p>
 
 ## style_v1
