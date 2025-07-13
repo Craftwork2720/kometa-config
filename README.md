@@ -1,7 +1,7 @@
 
 # 🎞️ Kometa Custom Config
 
-Custom overlays, collections, and posters designed for Kometa](https://github.com/Kometa-Team/Kometa)
+Custom overlays, collections, and posters designed for [Kometa](https://github.com/Kometa-Team/Kometa)
 
 This project includes two custom visual styles (`style_v1` and `style_v2`) for overlays, ready-to-use collection files, and matching posters for various themes and studios.
 
