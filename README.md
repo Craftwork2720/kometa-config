@@ -6,13 +6,13 @@ Custom overlays, collections, and posters for [Kometa](https://github.com/Kometa
 ### `style_v1` (TV)
 
 <p float="left">
-  <img src="screenshots/v1_tv.png" height="220" />
+  <img src="screenshots/v1_tv.png" height="300" />
 </p>
 
 ### `style_v2` (TV)
 
 <p float="left">
-  <img src="screenshots/v2_tv.png" height="220" />
+  <img src="screenshots/v2_tv.png" height="300" />
 </p>
 
 ### `style_v1` (Movies)
