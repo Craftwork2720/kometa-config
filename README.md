@@ -1,10 +1,7 @@
 
-# 🎞️ Kometa Custom Config
+#  Kometa Custom Config
 
 Custom overlays, collections, and posters for [Kometa](https://github.com/Kometa-Team/Kometa) 
-
-
-## 🖼️ Overlay Styles
 
 ### `style_v1` (TV)
 
