@@ -50,7 +50,7 @@ libraries:
       - 2.0
   Series:
     collection_files:
-    # - file: config/craftwork2720/overlays/style_v1/miniseries
+    # - file: config/craftwork2720/collections/miniseries
     overlay_files:
     # - file: config/craftwork2720/overlays/style_v1/miniseries
     - file: config/craftwork2720/overlays/style_v1/status
@@ -76,7 +76,7 @@ libraries:
       - 2.0
   Series:
     collection_files:
-    # - file: config/craftwork2720/overlays/style_v2/miniseries
+    # - file: config/craftwork2720/collections/miniseries
     overlay_files:
     # - file: config/craftwork2720/overlays/style_v2/miniseries
     - file: config/craftwork2720/overlays/style_v2/status
@@ -127,3 +127,15 @@ Collection YAML files located under `craftwork2720/collections/`:
 * `miniseries.yml` – Identifies and groups miniseries
 * `random_movies.yml` – Random picks from your movie library
 * `random_shows.yml` – Random picks from your TV shows library
+
+
+```yaml
+collection_files:
+  - file: config/craftwork2720/collections/basic_movies.yml
+  - file: config/craftwork2720/collections/basic_shows.yml
+  - file: config/craftwork2720/collections/delete.yml
+  - file: config/craftwork2720/collections/documentary.yml
+  - file: config/craftwork2720/collections/miniseries.yml
+  - file: config/craftwork2720/collections/random_movies.yml
+  - file: config/craftwork2720/collections/random_shows.yml
+```
