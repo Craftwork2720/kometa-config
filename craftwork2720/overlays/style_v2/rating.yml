@@ -3,7 +3,7 @@ templates:
     overlay:
       name: Background
       file: config/craftwork2720/overlays/style_v2/ratings/<<back_color>>.png
-      horizontal_offset: 420
+      horizontal_offset: 428
       horizontal_align: center
       vertical_offset: 20
       vertical_align: bottom
@@ -19,9 +19,9 @@ templates:
       rating_type: audience_rating
       weight: 100
       font: config/craftwork2720/fonts/Figtree-SemiBold-nodot.ttf
-      font_size: 65 
+      font_size: 64 
       horizontal_align: center
-      horizontal_offset: 420      
+      horizontal_offset: 428      
       vertical_align: bottom
       vertical_offset: 26
     plex_search:

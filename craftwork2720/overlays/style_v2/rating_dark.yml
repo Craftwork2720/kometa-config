@@ -1,0 +1,24 @@
+overlays:
+  Background:  
+    overlay:
+      name: Background
+      file: config/craftwork2720/overlays/style_v2/ratings/background_dark.png
+      horizontal_offset: 428
+      horizontal_align: center
+      vertical_offset: 20
+      vertical_align: bottom
+    plex_all: true
+  Rating:
+    overlay:
+      font_color: "#9b9b9b"
+      group: rating_text
+      name: text(audience_rating)
+      rating_type: audience_rating
+      weight: 100
+      font: config/craftwork2720/fonts/Figtree-SemiBold-nodot.ttf
+      font_size: 64 
+      horizontal_align: center
+      horizontal_offset: 428      
+      vertical_align: bottom
+      vertical_offset: 26
+    plex_all: true

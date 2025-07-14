@@ -78,6 +78,7 @@ libraries:
     # - file: config/craftwork2720/overlays/style_v2/miniseries
     - file: config/craftwork2720/overlays/style_v2/status
     - file: config/craftwork2720/overlays/style_v2/rating  # audience_rating
+    # Alternatively, use rating_dark.yml if you don't like the colors.
     operations:
       mass_audience_rating_update:
       - imdb
